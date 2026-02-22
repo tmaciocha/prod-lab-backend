@@ -51,3 +51,8 @@ Images are stored in:
 
 You can view published images in:
 Github -> Repository -> Packages
+
+
+
+This CI pipeline ensures that container images are built in clean Ubuntu environment provided by GitHub Actions. 
+This guarantees that builds are reproducible and independent from the developer's local machine.
